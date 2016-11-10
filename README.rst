@@ -31,12 +31,13 @@ Header
 
     homo-nd-arr v1 type=float bytes=8 shape=20x15 row-major compressed
 
-   - `homo-nd-arr` is the signature used for every file ('homogeneous n-dimensional array').
-   - `v1` indicates the version for compatibility, though the aim is to keep things as constant as possible once it's finalized.
-   - `type=float` specifies the data type, one of `float`, `complex`, `int`, `uint`.
-   - `bytes=8` is the number of bytes for one value in the array (e.g. this is `float64`, so 8 bytes).
-   - `shape=20x15` is the shape, separated by `x`-es, with any number of dimensions above 0 being allowed.
-   - `row-major`/`column-major` are optional and specify the layout of the original data (**not** the stored data, which is always row-major.).
-   - `compressed` indicates the data is compressed.
+  - `homo-nd-arr` is the signature used for every file ('homogeneous n-dimensional array').
+  - `v1` indicates the version for compatibility, though the aim is to keep things as constant as possible once it's finalized.
+  - `type=float` specifies the data type, one of `float`, `complex`, `int`, `uint`.
+  - `bytes=8` is the number of bytes for one value in the array (e.g. this is `float64`, so 8 bytes).
+  - `shape=20x15` is the shape, separated by `x`-es, with any number of dimensions above 0 being allowed.
+  - `row-major`/`column-major` are optional and specify the layout of the original data (**not** the stored data, which is always row-major.).
+  - `compressed` indicates the data is compressed.
+
 
 
